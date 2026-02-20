@@ -1,0 +1,70 @@
+body {font-family: "Kumbh Sans", sans-serif;
+    margin: 0;
+}
+
+/*header stuff here*/
+header {
+
+    Background-color:#78D5D7 ;
+    padding: 1rem 10 px;
+}
+header span {
+
+    color:#F7F9F9;
+    font-size: 1.6rem;
+    font-weight: 700; 
+}
+
+/* Navigation stuff here*/
+nav {
+ Background-color:#78D5D7 ;
+}
+nav ul 
+{
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83 rem 1 rem;
+    text-decoration: none; 
+    font-size: 1.1 rem;
+    color:#F7F9F9;
+    font-weight:700;
+}
+nav li.active a {
+    background-color:#F7F9F9;
+    color:#63D2FF;
+}
+nav li a:hover {
+    color:#2081C3;
+}
+/*main stuff here*/
+main {background-color: white;
+
+padding: 1 rem 10 px
+}
+main h1 {
+    color:#2081C3;
+}
+main h2{
+    color:#63D2FF;
+    margin-bottom: .2rem;
+}
+main p {
+    margin:0;
+    color:#333;
+}
+/*footer styling*/
+footer {
+    background-color:#D3D3D3;
+    text-align: center;
+    padding: 1 rem 0;
+    font-size: .8rem;
+}
+footer p {
+    margin: 0;
+    letter-spacing: 3px; 
+}
