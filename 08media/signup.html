@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Liliana Munoz">
+    <meta name="description" content="A history of Cats">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+     <link rel="icon" type="images/x-icon" href="favicon.ico">
+    <title>Sign Up</title>
+</head>
+
+<body>
+
+    <!--start the page head-->
+    <header>
+          <img src="images/images.png" alt="A History Of Cats" width="86" height="50">
+        <span><em><strong>A History of Cats</strong></em></span>
+    </header>
+    <!--start the page navigation-->
+<nav>
+    <ul>
+        <li><a href="index.html" >A History of Cats</a></li>
+        <li><a href="cats.html">How to Care for a Cat</a></li>
+        <li><a href="catgallery.html">Breeds of Cats</a></li>
+        <li><a href="signup.html"class="active">Sign up for more info about Cats!</a></li>
+         </ul>
+</nav>
+<!--start the page main content-->
+<main>
+    <h1>Sign Up for More Information about Cats!</h1>
+    <form method="get" class="myForm" action="thanks.html">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label>First Name<input type="text" name="fname" required></label>
+            <label>Last Name<input type="text" name="lname" required></label>
+            <label>Email Address<input type="email" name="email"></label>
+        </fieldset>
+</main>
+<main>
+    <h1>Order a Cat Care Kit</h1>
+    
+        <fieldset>
+            <legend>Cat Care Kit</legend>
+            <label>Kit Size
+                <select name="kitSize">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </label>
+            <label>Kit Type
+                <select name="kitType">
+                    <option value="basic">Basic</option>
+                    <option value="deluxe">Deluxe</option>
+                    <option value="premium">Premium</option>
+                </select>
+            </label>
+        </fieldset>
+    </form>
+</main>
+
+<main>
+    <h1>Delivery Options</h1>
+    <form method="get" class="myForm" action="thanks.html">
+        <fieldset>
+            <legend>Delivery Options</legend>
+            <label><input type="radio" name="delivery" value="standard" checked>Standard Delivery</label>
+            <label><input type="radio" name="delivery" value="express">Express Delivery</label>
+            <label><input type="radio" name="delivery" value="overnight">Overnight Delivery</label>
+        </fieldset>
+       
+    
+    <label>Comments
+        <textarea name="comments">Please add any special instructions for your cat care kit delivery.</textarea>
+    </label>
+    <input type="submit" value="Submit">
+    </form>
+</main>
+
+    <!-- start the page footer-->
+    <footer>
+        <p>&copy;2026 &bull; Liliana Munoz &bull; Web Development</p>
+
+    </footer>
+
